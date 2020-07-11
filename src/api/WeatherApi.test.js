@@ -13,4 +13,16 @@ describe('WeatherApi:', () => {
     expect(response).toEqual(data);
   });
 
+  it('getWeatherData(location) - should throw error', async () => {
+    RestHelper.get.mockImplementationOnce(() => Promise.resolve(new Error('fail')));
+    const location = 'London,uk';
+  
+    try {
+      await WeatherApi.getWeatherData(location) 
+    } catch (error) {
+        expect(error).toBeInstanceOf(TypeError);
+        expect(error).toHaveProperty('message', 'fail');
+    }
+
+  });
 });

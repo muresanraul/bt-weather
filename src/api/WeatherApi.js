@@ -7,7 +7,6 @@ class WeatherApi {
   static async getWeatherData(location) {
     try {
       const response = await RestHelper.get(formatEndpoint(endpoints.weatherApiUrl, {location}));
-      debugger;
       return await sleep(response);
     } catch (error) {
       console.error(error);

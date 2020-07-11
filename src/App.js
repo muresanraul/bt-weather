@@ -10,7 +10,7 @@ import './App.scss';
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.refrashData = null;
+    this.refrashDataInterval = null;
     this.state = {
       weatherData: null,
       timeElapsed: 0
@@ -18,7 +18,7 @@ class App extends React.Component {
   }
   async componentDidMount(){
     this.getWeather();
-    this.refrashData = setInterval(this.refrash, 1000);
+    this.refrashDataInterval = setInterval(this.refrash, 1000);
   }
 
   refrash = () => {
@@ -37,7 +37,7 @@ class App extends React.Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.refrashData);
+    clearInterval(this.refrashDataInterval);
   }
 
   render() {
