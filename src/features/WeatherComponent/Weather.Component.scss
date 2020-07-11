@@ -1,0 +1,88 @@
+.weather {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    &__title {
+        display: flex;
+        justify-content: center;
+        font-size: 5rem;
+        height: 7rem;
+        color: #ecf8ff;
+        padding: .5rem;
+        align-items: center;
+        & > * {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 40rem;
+            height: 100%;
+        }
+    }
+    &__main-details{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__main-details-name{
+        display: flex;
+        justify-content: center;
+        padding-right: 6rem;
+        height: 7rem;
+        min-width: 25rem;
+        z-index: 2;
+    }
+    &__main-details-img{
+        z-index: 1;
+    }
+    &__main-details-explenation{
+        display: flex;
+        justify-content: center;
+        padding-left: 6rem;
+        height: 5rem;
+        min-width: 40rem;
+        z-index: 2;
+    }
+    &__container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    &__column{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        @media only screen and (max-width: 700px){
+            width: 100%;
+        }
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+    &__row {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: .5rem;
+        border: solid #91cff8 .1rem;
+        margin: 1rem 0;
+        padding: 1rem 0;
+        & > * {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            width: 50%;
+            padding: 0 1rem;
+            box-sizing: border-box;
+            height: 5rem;
+            min-height: 5rem;
+            color: #054a72;
+        }
+    }
+    &__label{
+        width: 65%;
+    }
+    &__data{
+        width: 35%;
+    }
+}

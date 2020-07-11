@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageLoaderComponent: Component - renders correctly with no image if the alt property is set but the img prop is not set 1`] = `
+<div
+  className="image-loader"
+>
+  <div
+    className="image-loader__placeholder"
+  />
+</div>
+`;
+
+exports[`ImageLoaderComponent: Component - renders correctly with no properties 1`] = `
+<div
+  className="image-loader"
+>
+  <div
+    className="image-loader__placeholder"
+  />
+</div>
+`;
+
+exports[`ImageLoaderComponent: Component - renders correctly with set image 1`] = `
+<div
+  className="image-loader"
+>
+  <img
+    alt=""
+    src="http://openweathermap.org/img/wn//img.jpg@2x.png"
+  />
+</div>
+`;
+
+exports[`ImageLoaderComponent: Component - renders correctly with set image and alt 1`] = `
+<div
+  className="image-loader"
+>
+  <img
+    alt="alt"
+    src="http://openweathermap.org/img/wn//img.jpg@2x.png"
+  />
+</div>
+`;

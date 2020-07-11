@@ -1,0 +1,351 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App: Component - renders correctly 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="progress"
+  >
+    <div
+      className="progress__bar"
+      style={
+        Object {
+          "width": "0%",
+        }
+      }
+    />
+  </div>
+  <div
+    className="weather"
+  >
+    <div
+      className="LoadingScreen"
+    >
+      <div
+        className="LoadingScreen--background"
+      >
+        <div
+          className="LoadingScreen--message"
+        >
+          <div
+            className="lds-css ng-scope"
+          >
+            <div
+              className="lds-spin"
+              style={
+                Object {
+                  "height": "100%",
+                  "width": "100%",
+                }
+              }
+            >
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+              <div>
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="weather__title"
+    >
+      <div>
+        <div
+          className="dynamic-text"
+        >
+          <div
+            className="dynamic-text__placeholder"
+            style={
+              Object {
+                "backgroundColor": "#ecf8ff",
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="weather__main-details"
+    >
+      <div
+        className="weather__main-details-name"
+      >
+        <div
+          className="dynamic-text"
+        >
+          <div
+            className="dynamic-text__placeholder"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
+          />
+        </div>
+      </div>
+      <div
+        className="weather__main-details-img"
+      >
+        <div
+          className="image-loader"
+        >
+          <div
+            className="image-loader__placeholder"
+          />
+        </div>
+      </div>
+      <div
+        className="weather__main-details-explenation"
+      >
+        <div
+          className="dynamic-text"
+        >
+          <div
+            className="dynamic-text__placeholder"
+            style={
+              Object {
+                "backgroundColor": undefined,
+              }
+            }
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="weather__container"
+    >
+      <div
+        className="weather__column"
+      >
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Temperature
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Feels like
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Minimum temperature
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Maximum temperature
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="weather__column"
+      >
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Presure
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Humidity
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Visibility
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          className="weather__row"
+        >
+          <div
+            className="weather__label"
+          >
+            Windspeed
+          </div>
+          <div
+            className="weather__data"
+          >
+            <div
+              className="dynamic-text"
+            >
+              <div
+                className="dynamic-text__placeholder"
+                style={
+                  Object {
+                    "backgroundColor": undefined,
+                  }
+                }
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

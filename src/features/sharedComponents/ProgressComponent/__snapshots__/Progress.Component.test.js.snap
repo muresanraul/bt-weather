@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProgressComponent: renders width the progress correctly - 0 sec 1`] = `
+<div
+  className="progress"
+>
+  <div
+    className="progress__bar"
+    style={
+      Object {
+        "width": "0%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgressComponent: renders width the progress correctly - 25 sec 1`] = `
+<div
+  className="progress"
+>
+  <div
+    className="progress__bar"
+    style={
+      Object {
+        "width": "42%",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`ProgressComponent: renders width the progress correctly - 60 sec 1`] = `
+<div
+  className="progress"
+>
+  <div
+    className="progress__bar"
+    style={
+      Object {
+        "width": "100%",
+      }
+    }
+  />
+</div>
+`;
