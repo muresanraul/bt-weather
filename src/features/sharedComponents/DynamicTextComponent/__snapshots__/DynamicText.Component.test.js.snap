@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DynamicTextComponent: Component - renders correctly with no properties 1`] = `
+<div
+  className="dynamic-text"
+>
+  <div
+    className="dynamic-text__placeholder"
+    style={
+      Object {
+        "backgroundColor": undefined,
+      }
+    }
+  />
+</div>
+`;
+
+exports[`DynamicTextComponent: Component - renders correctly with set fontSize and color properties but no text property set,  1`] = `
+<div
+  className="dynamic-text"
+>
+  <div
+    className="dynamic-text__text"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "12px",
+        "justifyContent": undefined,
+      }
+    }
+  >
+    text
+  </div>
+</div>
+`;
+
+exports[`DynamicTextComponent: Component - renders correctly with set text and fontSize properties 1`] = `
+<div
+  className="dynamic-text"
+>
+  <div
+    className="dynamic-text__text"
+    style={
+      Object {
+        "color": undefined,
+        "fontSize": "12px",
+        "justifyContent": undefined,
+      }
+    }
+  >
+    text
+  </div>
+</div>
+`;
+
+exports[`DynamicTextComponent: Component - renders correctly with set text property 1`] = `
+<div
+  className="dynamic-text"
+>
+  <div
+    className="dynamic-text__text"
+    style={
+      Object {
+        "color": undefined,
+        "fontSize": undefined,
+        "justifyContent": undefined,
+      }
+    }
+  >
+    text
+  </div>
+</div>
+`;
+
+exports[`DynamicTextComponent: Component - renders correctly with set text, fontSize and color properties 1`] = `
+<div
+  className="dynamic-text"
+>
+  <div
+    className="dynamic-text__text"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": "12px",
+        "justifyContent": undefined,
+      }
+    }
+  >
+    text
+  </div>
+</div>
+`;

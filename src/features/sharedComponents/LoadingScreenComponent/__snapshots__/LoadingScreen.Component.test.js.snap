@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoadingScreenComponent: Component - renders correctly 1`] = `
+<div
+  className="LoadingScreen"
+>
+  <div
+    className="LoadingScreen--background"
+  >
+    <div
+      className="LoadingScreen--message"
+    >
+      <div
+        className="lds-css ng-scope"
+      >
+        <div
+          className="lds-spin"
+          style={
+            Object {
+              "height": "100%",
+              "width": "100%",
+            }
+          }
+        >
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+          <div>
+            <div />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

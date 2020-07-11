@@ -1,0 +1,21 @@
+.image-loader {
+    height: 10rem;
+    width: 10rem;
+    position: relative;
+    &__placeholder{
+        height: 100%;
+        width: 100%;
+        position: relative;
+        &:before,
+        &:after {
+            content: '';
+            display: block;
+            height: 50%;
+            width: 50%;
+            background-color: #054a72;
+        }
+        &:after {
+            margin-left: 50%;
+        }
+    }
+}
