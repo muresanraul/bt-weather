@@ -25,6 +25,6 @@ export const noImageSet = () => (
 
 export const ImageSet = () => (
   <div style={containerStyle}>
-    <ImageLoaderComponent text={'textSet'} img={'02d'} alt={'few clouds'} />
+    <ImageLoaderComponent text={'textSet'} img={'http://openweathermap.org/img/wn/02d@2x.png'} alt={'few clouds'} />
   </div>
 );
