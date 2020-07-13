@@ -13,7 +13,7 @@ describe('ImageLoaderComponent:', () => {
   });
 
   it('Component - renders correctly with set image', () => {
-    const props = {img: '/img.jpg'};
+    const props = {img: 'http://openweathermap.org/img/wn/02d@2x.png'};
     const imageLoaderComponent = renderer.create(
       <ImageLoaderComponent {...props}/>
     ).toJSON();
@@ -21,7 +21,7 @@ describe('ImageLoaderComponent:', () => {
   });
 
   it('Component - renders correctly with set image and alt', () => {
-    const props = {img: '/img.jpg', alt: 'alt'};
+    const props = {img: 'http://openweathermap.org/img/wn/02d@2x.png', alt: 'alt'};
     const imageLoaderComponent = renderer.create(
       <ImageLoaderComponent {...props}/>
     ).toJSON();

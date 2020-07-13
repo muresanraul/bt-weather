@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Endpoints, { formatEndpoint } from '../../../configurations/endpoints';
 import './ImageLoader.Component.scss';
 
 function ImageLoaderComponent(props) {
@@ -11,7 +10,7 @@ function ImageLoaderComponent(props) {
   let alt = '';
   if (props.img !== undefined) {
     isActive = true;
-    imgUrl = formatEndpoint(Endpoints.weatherIconUrl, {icon: props.img});
+    imgUrl = props.img;
     alt = props.alt ? props.alt : '';
   }
   return (

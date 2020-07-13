@@ -10,7 +10,7 @@ describe('In App.Service.js:', () => {
     const expected = {
       weather_main: "Clouds",
       weather_description: "scattered clouds",
-      weather_icon: "03n",
+      weather_icon: 'http://openweathermap.org/img/wn/03n@2x.png',
       temp: 15.36,
       feels_like: 8.2,
       temp_min: 14.44,

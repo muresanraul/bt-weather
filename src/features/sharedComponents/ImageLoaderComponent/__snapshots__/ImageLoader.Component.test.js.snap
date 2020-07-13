@@ -26,7 +26,7 @@ exports[`ImageLoaderComponent: Component - renders correctly with set image 1`] 
 >
   <img
     alt=""
-    src="http://openweathermap.org/img/wn//img.jpg@2x.png"
+    src="http://openweathermap.org/img/wn/02d@2x.png"
   />
 </div>
 `;
@@ -37,7 +37,7 @@ exports[`ImageLoaderComponent: Component - renders correctly with set image and 
 >
   <img
     alt="alt"
-    src="http://openweathermap.org/img/wn//img.jpg@2x.png"
+    src="http://openweathermap.org/img/wn/02d@2x.png"
   />
 </div>
 `;
